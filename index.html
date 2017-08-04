@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Shado's Elixr E-Juice</title>
+
+    <!-- Bootstrap 
+    <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One|Orbitron:400|Raleway:200" rel="stylesheet">
+    <!--<link href="css/agecheck.css" rel="stylesheet">  -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body data-spy="scroll" data-target="#navbar" data-offset="100">
+
+    <!-- NavBar -->
+   
+
+    <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbrand">
+        <a class="navbar-brand" href="#">
+        <img src="img/navbarbrandA.png" class="brand" alt="Shado's Logo"><br>
+      </a>
+    </div> <!-- /.navbrand -->
+    </div> <!-- /.navbar-header -->
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <!-- <li><a href="#about">About Shado's</a></li> **No Abt Section Currently ** -->
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#contact">Getting in Touch</a></li>
+        <li><a href="wholesale.html">Wholesale</a></li>
+              </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+
+
+<!-- Jumbotron Hero Header  ********** -->
+   
+    <div class="jumbotron">
+    <br>
+    <br>
+
+    </div> <!-- /.jumbotron -->
+
+<!-- ABOUT Section ******************* 
+  PENDING FURTHER REVIEW
+<div class="container" id="about">
+    <h1>About Shado's Elixr!</h1>
+    <p class="sectionCopy" id="aboutCopy">
+      Shado's Elixr does</p>
+</div> <! /.container #about -->
+
+  
+
+<!-- MENU Section ******************* -->
+<div class="container" id="menu">
+  <h1>menu</h1>
+   <img id="menupng" class="img-responsive center-block" src="img/webMenu.png">
+ </div> <!-- /.container #menu -->
+
+
+
+<!-- SHOP Section ******************* -->
+
+<div class="container" id="shop">
+
+  <h1>collapsible panel</h1>
+  <p>Click on the collapsible panel to open and close it. <br> 
+    Then, if you get bored.. You can do it again.. <br>
+    And again..  <br>
+    But anymore than that and you're just being silly.</p>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#collapse1">Collapsible panel</button>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+       <div class="xs-col-"> 
+            <h3>Product Heading</h3>
+            <p>Product description and stuff</p>
+         </div>
+         <div class="prodo"> 
+            <h3>Product Heading</h3>
+            <p>Product description and stuff</p>
+         </div>
+         <div class="prodo"> 
+            <h3>Product Heading</h3>
+            <p>Product description and stuff</p>
+        </div>
+      </div> <!-- / #collapse1 -->
+    </div> <!-- /.panel .panel-default -->
+  </div> <!-- /.panel-group -->
+
+  <div id="shopGrid" class=""
+
+</div> <!-- /.container #shop -->
+
+
+<!--CONTACT Section ***************** -->
+
+<div class="container" id="contact">
+  <!-- <div class="headerImgB"></div> -->
+  <h1>contact</h1>
+  <p class="sectionCopy" id="contactCopy">Have questions, comments, or just want to say hey?? Feel free to reach out to us on social media or email us at zippidydodah@shados.com? </p>
+
+  <div class="container" id="contactForm">
+
+    <div id="form-messages"></div>
+
+<form id="ajax-contact" method="post" action="mailer.php">
+    <div class="field">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="field">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="field">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <div class="field">
+        <button type="submit">Send</button>
+    </div>
+</form>
+
+  </div> <!-- /.container #contactForm -->
+
+<div class="container" id="social">
+  Check us out and follow us on <a href="http://www.facebook.com/shadoselixr">Facebook</a> and <a href="http://www.instagram.com/shadoselixr_ejuice">Instagram!</a>
+</div> <!-- /.container #social -->
+
+  </div> <!-- /.container #contact -->
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Form Script ** TEST ** 
+    <script src="js/app.js"></script>
+    -->
+<!-- Age Check Script 
+    <script src="js/jquery.agecheck.min.js"></script>
+    <script>
+      $.ageCheck({
+        minAge : 21,         
+        redirectTo : '',
+        redirectOnFail : '',
+        title : 'Age Verification',
+        copy : 'This Website requires you to be [21] years or older to enter. Please enter your Date of Birth in the fields below in order to continue:'
+});
+</script>
+-->
+    <script>
+  // <!-- Scroll Animations -->
+      var $root = $('html, body');
+        $('a').click(function() {
+      var href = $.attr(this, 'href');
+        $root.animate({
+        scrollTop: $(href).offset().top
+    }, 500, function () {
+        window.location.hash = href;
+    });
+    return false;
+  // <!-- Scrollspy Script -->
+  $('body').scrollspy({ target: '#navbar' })
+});
+
+  // <!-- Nav collapse on click for mobile -->
+  $(function() {
+    $('.nav a').on('click', function(){ 
+        if($('.navbar-toggle').css('display') !='none'){
+            $(".navbar-toggle").trigger( "click" );
+        }
+    });
+});
+    </script>
+
+
+
+
+  </body>
+</html>
