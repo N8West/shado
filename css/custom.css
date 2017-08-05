@@ -22,6 +22,11 @@ h1{
 h2 {
 	font-size: 2rem;
 }
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .navbar-default {
 	background-color: #0d0d0d;
@@ -43,6 +48,22 @@ h2 {
 	
 }
 
+#ajax-contact {
+	color: white;
+	width: 235px;
+	text-align: left;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+div.field {
+	margin-top: 10px;
+}
+
+hr{
+	margin: 40px auto;
+}
+
 /* Tablet Media Query */
 
 @media  screen and (min-width: 500px) and (max-width: 800px) {
@@ -56,12 +77,20 @@ h2 {
 		min-width: 470px;
 	}
 
-	.panel-group {
-		display: none;
+	hr{
+	margin: 60px auto;
+}
+
+	h1{
+		font-size: 60px;
 	}
 
 	#menupng {
 		max-width: 470px;
+	}
+
+	#ajax-contact {
+		width: 350px;
 	}
 }
 
@@ -77,83 +106,44 @@ h2 {
 		min-width: 800px;
 	}
 
-	.panel-group {
-		display: none;
+	hr{
+	margin: 100px auto;
+}
+
+	h1 {
+		font-size: 60px;
 	}
 
 	#menupng {
 		max-width: 570px;
 	}
+
+	#ajax-contact {
+		width: 500px;
+	}
+
+
+}
 }
 
 .container {
-	
-	margin: 5px auto;
-
+	margin: 25px auto 20px;
 }
 
 #menu {
-
 	max-width: 100%;
 	padding: 5px;
-	
+	margin-bottom: 30px;
 }
 
 
-#shopHide {
-	display: hidden;
-}
 
-
-.headerImg {
-	background: black url('../img/shopHeader.png');
-	background-position: center center;
-	background-repeat: no-repeat;
-	min-height: 50px;
-
-}
-
-.headerImgB {
-	background: black url('../img/contactHeader.png');
-	background-position: center center;
-	background-repeat: no-repeat;
-	min-height: 50px;
-
-
-
-}
+ #fullShop {
+ 	margin-top: 40px;
+ 	 }
 
 .inverseCopy {
 	color: black;
-}
-
-.prodo {
-	min-height: 150px;
-	max-width: 150px;
-	display: inline-block;
-	color: black;
-}
-
-@font-face {
-    font-family: 'plasmaDrip';
-    src: url('plasdrip-webfont.eot');
-    src: url('plasdrip-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/plasdrip-webfont.woff') format('woff'),
-         url('../plasdrip-webfont.ttf') format('truetype'),
-         url('plasdrip-webfont.svg#plasma_drip_brkregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-#contactForm {
-	display: none;
-}
-
-#ajax-contact {
-	color: black;
-	width: 235px;
-	text-align: left;
 }
 
 label {
@@ -162,4 +152,12 @@ label {
 
 textarea#message {
 	height: 160px;
+}
+
+.active {
+	background-color: white;
+}
+
+footer{
+	margin: 50px auto;
 }
